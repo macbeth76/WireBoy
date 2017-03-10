@@ -168,7 +168,7 @@ public class XMLParser {
             g.setColor(Color.BLACK);
             g.drawString(fileName, 1520 / 2 - (g.getFontMetrics().stringWidth(fileName) / 2), 1050);
             g.setFont(defaultFont);
-            BufferedImage battery = readImage("/hardwareImages/battery.PNG");
+            BufferedImage battery = readImage("/hardwareImages/battery.png");
             BufferedImage phone = readImage("/hardwareImages/phone.png");
             BufferedImage powerModule = readImage("/hardwareImages/powerModule.png");
             g.setColor(Color.BLACK);
